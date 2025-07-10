@@ -1,5 +1,5 @@
 package learning.day4;
-import java.util.Scanner;
+//import java.util.Scanner;
 public class patterns {
     public static void main(String[] args) {
         // In this session we will be printing patterns
@@ -72,7 +72,7 @@ public class patterns {
         }*/
 
         // half pyramid with numbers
-        System.out.println("Half Pyramid using Numbers");
+        /*System.out.println("Half Pyramid using Numbers");
         Scanner input = new Scanner(System.in);
         System.out.print("enter the number rows you want: ");
         int rows = input.nextInt();
@@ -81,9 +81,16 @@ public class patterns {
                 System.out.print(j+" ");
             }
             System.out.println();
+        }*/
+
+        // Inverted half pyramid of Numbers
+       System.out.println("Inverted half pyramid of Numbers");
+        int rows = 5;
+        for (int i = 1; i <= rows; i++) {
+            for (int j = 1; j <= rows - i + 1; j++) {
+                System.out.print(j + " ");
+            }
+            System.out.println();
         }
-
-
-
     }
 }
