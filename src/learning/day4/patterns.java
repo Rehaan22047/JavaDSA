@@ -55,7 +55,7 @@ public class patterns {
 
 
         // Inverted Half Pyramid (rotated by 180 deg)
-        /*System.out.println("Mirrored Half Pyramid (rotated by 180 deg)");
+        System.out.println("Mirrored Half Pyramid (rotated by 180 deg)");
         int rows = 4;
         // outer loop
         for (int i = 1; i <= rows; i++){
@@ -67,30 +67,6 @@ public class patterns {
             // inner loop --> to print stars
             for (int j = 1; j <= i; j++){
                 System.out.print("* ");
-            }
-            System.out.println();
-        }*/
-
-        // half pyramid with numbers
-
-       /* System.out.println("Half Pyramid using Numbers");
-        Scanner input = new Scanner(System.in);
-        System.out.print("enter the number rows you want: ");
-        int rows = input.nextInt();
-        for (int i = 1; i <= rows; i++){
-            for (int j = 1; j <= i; j++){
-                System.out.print(j+" ");
-            }
-            System.out.println();
-        }*/
-
-
-        // Inverted half pyramid of Numbers
-        System.out.println("Inverted half pyramid of Numbers");
-        int rows = 5;
-        for (int i = 1; i <= rows; i++){
-            for (int j = 1; j <= rows - i+1;j++){
-                System.out.print(j+" ");
             }
             System.out.println();
         }
